@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace WebShop.DAL.Entities
 {
-    internal class Categories
+    public class Categories
     {
         public int Id { get; set; }
         public string? Name { get; set; }

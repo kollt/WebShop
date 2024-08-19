@@ -1,7 +1,7 @@
 ﻿
 namespace WebShop.DAL.Entities
 {
-    internal class OrderItems
+    public class OrderItems
     {
         public int? Id { get; set; }
         public Orders? Order { get; set; }

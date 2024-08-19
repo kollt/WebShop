@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WebShop.DAL.Entities;
 
-namespace WebShop.DAL.Entities
+namespace WebShop.BLL.DTOs.Request
 {
-    public class Users
+    public class AddUserDto
     {
         public string? Name { get; set; }
         public string? Surname { get; set; }
