@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using WebShop.DAL.Entities;
+namespace WebShop.BLL.DTOs.Request;
 
-namespace WebShop.BLL.DTOs.Request
-{
     public class AddUserDto
     {
         public string? Name { get; set; }
@@ -17,4 +12,4 @@ namespace WebShop.BLL.DTOs.Request
         public string? Password { get; set; }
         public List<Orders>? Orders { get; set; }
     }
-}
+

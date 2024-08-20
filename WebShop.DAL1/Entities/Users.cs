@@ -5,6 +5,8 @@ namespace WebShop.DAL.Entities
 {
     public class Users
     {
+        public long Id { get; set; }    
+        public string? UserName { get; set; }
         public string? Name { get; set; }
         public string? Surname { get; set; }
         public DateTime RegistrationTime { get; set; }
